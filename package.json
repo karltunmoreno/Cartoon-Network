@@ -1,0 +1,26 @@
+{
+  "name": "cartoon-network",
+  "version": "1.0.0",
+  "description": "What are the best cartoon animation ever created.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karltunmoreno/Cartoon-Network.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karltunmoreno/Cartoon-Network/issues"
+  },
+  "homepage": "https://github.com/karltunmoreno/Cartoon-Network#readme",
+  "dependencies": {
+    "express": "^4.18.0",
+    "mongodb": "^4.5.0",
+    "mongoose": "^6.3.1"
+  }
+}

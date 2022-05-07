@@ -46,7 +46,7 @@ const thoughtController = {
         Thought.findOneAndUpdate({_id: params.id}, body, {new: true, runValidators: true})
         .then(dbThoughtData => {
             if (!dbThoughtData) {
-                res.status(404).json({message: 'Nothing found with this id!'});
+                res.status(404).json({message: 'No pizza found with this id!'});
                 return
             }
             res.json(dbThoughtData)

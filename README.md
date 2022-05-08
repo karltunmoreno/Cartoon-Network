@@ -17,12 +17,22 @@ THEN the data for each of these routes is displayed in a formatted JSON
 WHEN I test API POST, PUT, and DELETE routes in Insomnia
 THEN I am able to successfully create, update, and delete users and thoughts in my database
 WHEN I test API POST and DELETE routes in Insomnia
-THEN I am able to successfully create and delete reactions to thoughts and add and remove friends to a user’s friend list
+THEN I am able to successfully create and delete reactions to thoughts and add and remove friends to a user’s friend list.
 
 
 YOU TUBE LINK  https://www.youtube.com/watch?v=jwRCeVy91co
 
 TECHNOLOGY HELPERS
+
+Created models with Mongoose.
+
+Used virtuals to extend the models' functionality.
+
+Created subschemas and subdocuments with Mongoose.
+
+Used IndexedDB to add offline functionality.
+
+Validated models to normalize data.
 
 NoSql
 JavaScript

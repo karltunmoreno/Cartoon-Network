@@ -1,14 +1,17 @@
 # Cartoon-Network
 NoSQL Challenge: Social Network API
 
+___________________________________________________________________________________________________________________________________________________________________
 
-User Story
+### User Story
 
 AS A social media startup
 I WANT an API for my social network that uses a NoSQL database
 SO THAT my website can handle large amounts of unstructured data
+__________________________________________________________________________________________________________________________________________________________________
 
-Acceptance Criteria
+## Criteria
+
 GIVEN a social network API
 WHEN I enter the command to invoke the application
 THEN my server is started and the Mongoose models are synced to the MongoDB database
@@ -19,10 +22,17 @@ THEN I am able to successfully create, update, and delete users and thoughts in 
 WHEN I test API POST and DELETE routes in Insomnia
 THEN I am able to successfully create and delete reactions to thoughts and add and remove friends to a user’s friend list.
 
+___________________________________________________________________________________________________________________________________________________________________
+
+### Links
+
 
 YOU TUBE LINK  https://www.youtube.com/watch?v=jwRCeVy91co
 
-TECHNOLOGY HELPERS
+
+__________________________________________________________________________________________________________________________________________________________________
+
+## Tech Used
 
 Created models with Mongoose.
 
